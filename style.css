@@ -85,4 +85,6 @@ body {
 /* main start*/
 .intro{
   height: 100vh;
+  background: url(img/intro_bg.jpg) no-repeat center;
+  background-size: cover;
 }
