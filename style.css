@@ -354,7 +354,7 @@ img {
 }
 
 .tour_info {
-
+  padding-left: 47px;
 }
 
 .tour_title {
@@ -383,4 +383,82 @@ img {
 
 .tour_more:hover {
   opacity: .65;
+}
+
+/*top*/
+
+.top {
+  margin-bottom: 86px;
+}
+
+.top_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 57px;
+}
+
+.top_title {
+  margin-bottom: 54px;
+}
+
+.top_card-pic {
+  position: relative;
+  margin-bottom: 45px;
+}
+
+.top_card-stats {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(21, 24, 36, 0.6);
+  padding: 16px 25px;
+}
+
+.top_card-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 auto 0 0;
+}
+
+.top_card-likes-value {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  padding-right: 20px;
+  background: url(svg/like.svg) no-repeat right;
+  margin-right: 14px;
+}
+
+.top_card-comm-value {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  padding-right: 20px;
+  background: url(svg/comm.svg) no-repeat right;
+}
+
+.top_card-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #102746;
+  margin-bottom: 31px;
+}
+
+.top_card_link {
+  padding: 12px 19px;
+  background: #006DFE;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.top_card_link:hover {
+  background: #0d3d7c;
 }
