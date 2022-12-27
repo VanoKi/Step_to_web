@@ -80,7 +80,15 @@ img {
   top: 0;
   left: 0;
   width: 100%;
+  transition: .2s;
+  padding-bottom: 20px;
+  z-index: 9;
 }
+
+.header_active {
+  background: #0E1D28;
+}
+
 .header__wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -452,13 +460,20 @@ img {
 }
 
 .top_card_link {
+  width: 118px;
   padding: 12px 19px;
   background: #006DFE;
   text-decoration: none;
   color: white;
   font-size: 16px;
+  margin: auto 0 0 0;
 }
 
 .top_card_link:hover {
   background: #0d3d7c;
+}
+
+.top_card {
+  display: flex;
+  flex-direction: column;
 }
