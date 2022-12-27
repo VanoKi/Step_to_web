@@ -325,6 +325,7 @@ img {
   font-size: 50px;
   line-height: 60px;
   color: white;
+  position: absolute;
   bottom: 27px;
   left: 29px;
   z-index: 3;
