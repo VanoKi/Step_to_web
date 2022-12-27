@@ -477,3 +477,51 @@ img {
   display: flex;
   flex-direction: column;
 }
+
+/*videos*/
+
+.videos {
+  width: 100%;
+}
+
+.videos_wrap {
+  max-width: 1440px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.video_item {
+  padding-top: 56.25%;
+}
+
+.video_elem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*footer*/
+
+.footer {
+  background: #0E1D28;
+  padding: 119px 0;
+}
+
+.footer_item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer_logo {
+  width: 50%;
+}
+
+.footer_nav {
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* flex-direction: row; */
+  justify-content: space-between;
+  width: 50%;
+}
