@@ -605,6 +605,7 @@ img {
 
   .header_nav_active {
     transform: translateX(0);
+    transition: .2s;
 
   }
 
