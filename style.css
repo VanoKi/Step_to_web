@@ -589,6 +589,11 @@ img {
 /* media start*/ 
 
 @media screen and (max-width: 767px) {
+
+  .section__title {
+    margin-bottom: 25px;
+  }
+
   .header_burger {
     display: block;
   }
@@ -653,6 +658,109 @@ img {
   .header_nav_close_line:last-child {
     transform: translateY(-50%) rotate(-45deg);
   }
+
+  .header__wrapper {
+    padding-top: 28px;
+  }
+
+
+  .benefits__card {
+    grid-column: span 3;
+  }
+
+  .intro {
+    padding-top: 150px;
+  }
+
+  .intro__title {
+    font-style: 32px;
+    line-height: 48px;
+  }
+
+  .intro__subtitle {
+    font-size: 14px;
+  }
+
+  .search-form__field {
+    width: 100%;
+    margin-right: 0;
+    padding-bottom: 12px;
+  }
+
+  .search-form__field::placeholder {
+    font-size: 16px;
+  }
+
+  .search-form__submit {
+    width: 100%;
+  }
+
+  .benefits__card-pict {
+    margin-bottom: 20px;
+  }
+
+  .benefits__card-title {
+    margin-bottom: 12px;
+  }
+
+  .benefits__card-desc {
+    margin-bottom: 20px;
+  }
+  .benefits {
+    margin-bottom: 36px;
+  }
+
+  .places__cards__lg, .places__cards__sm {
+    height: 230px;
+  }
+  .places {
+    margin-bottom: 76px;
+}
+
+  .tour_pic, .tour_info {
+    grid-column: span 2;
+  }
+
+  .tour_pic {
+    margin-bottom: 12px;
+  }
+
+  .tour_pic_mob_first {
+    grid-row: start -1;
+  }
+
+  .tours_tour {
+    margin-bottom: 50px;
+  }
+
+  .tours {
+    margin-bottom: 70px;
+  }
+
+  .top_card {
+    grid-column: span 6;
+  }
+
+  .top_card-desc {
+    margin-bottom: 15px;
+  }
+
+  .top {
+    margin-bottom: 76px;
+  } 
+
+  .footer_logo {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+
+  .footer_nav {
+    width: 100%;
+  }
+
+  .footer_menu {
+    width: 50%;
+  }
 }
 
 @media screen and (max-width: 960px) {
@@ -712,7 +820,7 @@ img {
   }
 
   .top_card {
-    grid-column: span 3;
+    /* grid-column: span 3; */
   }
 
   .top_card-pic {
@@ -721,5 +829,11 @@ img {
 
   .footer {
     padding: 60px 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header_nav {
+    padding: 30px;
   }
 }
