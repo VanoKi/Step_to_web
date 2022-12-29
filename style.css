@@ -761,6 +761,10 @@ img {
   .footer_menu {
     width: 50%;
   }
+
+  .places__view__all {
+    margin-bottom: 25px;
+  }
 }
 
 @media screen and (max-width: 960px) {
